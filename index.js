@@ -131,7 +131,7 @@ var logPrefix = '[' + pkg.name + ']';
     };
 
     Exporter.getCategories = function(callback) {
-        return Exporter.getPaginatedCategories(0, -1, callback);    
+        return Exporter.getPaginatedCategories(0, 1000, callback);    
     };
     Exporter.getPaginatedCategories = function(start, limit, callback) {
 
