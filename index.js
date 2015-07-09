@@ -82,7 +82,7 @@ var logPrefix = '[' + pkg.name + ']';
         var prefix = Exporter.config('prefix');
         var startms = +new Date();
 
-        var query = 'SELECT ' + prefix + 'members.member_id as _uid, '
+        var query = 'SELECT ' + prefix + 'members.id as _uid, '
             + prefix + 'members.name as _username, '
             + prefix + 'members.email as _email, '
             + prefix + 'members.mgroup as _gid, '
