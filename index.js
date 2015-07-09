@@ -283,10 +283,10 @@ var logPrefix = '[' + pkg.name + ']';
                 Exporter.setup(config, next);
             },
             function(next) {
-                Exporter.getUsers(next);
+                Exporter.getCategories(next);
             },
             function(next) {
-                Exporter.getCategories(next);
+                Exporter.getUsers(next);
             },
             function(next) {
                 Exporter.getTopics(next);
