@@ -7,7 +7,7 @@ var	fs = require('fs-extra'),
     prefix = '/admin/plugins/' + nbbId,
     apiPrefix = '/api' + prefix,
     note = '<h1 style="color:red;">This plugin is not designed to work from this Admin Panel. Please uninstall it, '
-        + 'then install <a target="_blank" href="https://github.com/akhoury/nodebb-plugin-import">nodebb-plugin-import</a> '
+        + 'then install <a target="_blank" href="https://github.com/mudmanc4/nodebb-plugin-import">nodebb-plugin-import</a> '
         + 'and choose the correct source exporter from the available list</h1><br/><br/><h1>README.md:</h1><br/>',
 
     Plugin = {
