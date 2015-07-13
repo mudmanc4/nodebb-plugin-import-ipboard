@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/miranmirza/nodebb-plugin-import-ipboard"
+        "url": "https://github.com/mudmanc4/nodebb-plugin-import-ipboard"
     },
     "keywords": [
         "ipboard",
@@ -26,7 +26,7 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/miranmirza/nodebb-plugin-import-ipboard/issues"
+        "url": "https://github.com/mudmanc4/nodebb-plugin-import-ipboard/issues"
     },
     "dependencies": {
         "underscore": "~1.6.0",
@@ -37,5 +37,5 @@
         "mysql": "~2.4.2"
     },
 
-    "_tablePrefix":
+    "_tablePrefix": ""
 }
