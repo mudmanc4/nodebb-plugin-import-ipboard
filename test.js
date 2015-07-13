@@ -1,7 +1,7 @@
 var fs = require('fs-extra');
 
 require('./index').testrun({
-    dbhost: 'localhost',
+    dbhost: '',
     dbport: 3306,
     dbname: 'ipboard',
     dbuser: 'user',
