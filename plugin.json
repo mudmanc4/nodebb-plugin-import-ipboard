@@ -1,13 +1,41 @@
 {
-	"id": "nodebb-plugin-import-ipboard",
-	"name": "nodebb-plugin-import-ipboard",
-	"description": "Export your IP.Board to NodeBB ",
-	"url": "https://github.com/akhoury/nodebb-plugin-import-ipboard",
-	"library": "./admin/index.js",
-	"hooks": [
-		{ "hook": "filter:admin.header.build", "method": "admin.menu"},
-		{ "hook": "static:app.load", "method": "admin.load"}
-	],
-	"templates": "./public/templates",
-	 "minver": "0.5.0"
+    "name": "nodebb-plugin-import-if",
+    "version": "0.0.3",
+    "description": "An InvisionFree exporter to NodeBB",
+    "main": "./index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/miranmirza/nodebb-plugin-import-ipboard"
+    },
+    "keywords": [
+        "ipboard",
+        "invisionfree",
+        "nodebb",
+        "plugin",
+        "migrate",
+        "convert",
+        "export",
+        "import"
+    ],
+    "author": {
+        "name": "Miran Mirza",
+        "email": "miranmirza@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/miranmirza/nodebb-plugin-import-ipboard/issues"
+    },
+    "dependencies": {
+        "underscore": "~1.6.0",
+        "fs-extra": "~0.11.0",
+        "async": "~0.9.0",
+        "marked": "~0.3.2",
+        "moment": "~2.8.2",
+        "mysql": "~2.4.2"
+    },
+
+    "_tablePrefix": ""
 }
